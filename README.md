@@ -7,11 +7,11 @@ You just need to make an instance of "Executer" class and call "AddCommand()" to
 ----
 For example:
   Executer ex = new Executer();
-  ex.AddCommand("Call Function",Myfunction());
+  ex.AddCommand("Call Function",Myfunction);
   
   ex.Execute("MY INPUT");
   
-:Now if we place "Call Function" , "CallFunction" or even "call function" instead of "MY INPUT" , Myfunction will call.
+:Now if we place "Call Function" , "CallFunction" or even "call function" instead of "MY INPUT" , Myfunction method will call.
 ----
 CrossDeve.
 My email: alimohammady0921@gmail.com
