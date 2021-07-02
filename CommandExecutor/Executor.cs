@@ -31,6 +31,7 @@ namespace CommandExecutor
         public bool Execute(string command)
         {
             bool Valid = false;
+            command = StandardString(command);
 
             if (!Valid)
             {
